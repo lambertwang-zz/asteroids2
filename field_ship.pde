@@ -6,8 +6,10 @@ void checkFire() { // Fires lasers when spacebar is pressed
   if (firekey && cooldown == 0 && !dead) { // When cooldown is 0, lasers are ready to fire
     if (!debug)
       stats[1]++;
-    mercury.shoot(mercury.type);
-    cooldown = laserfire[mercury.type];
+    if (mercury != null) {
+      mercury.shoot(mercury.type);
+      cooldown = laserfire[mercury.type];
+    }
   }
   if (cooldown > 0)
     cooldown--;

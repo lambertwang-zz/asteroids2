@@ -17,6 +17,9 @@ Version: Beta 1.3
 Author: Lambert Wang  
 A processing project that occupied my spare time.   
 
+# Screenshots
+![](screenshots/screenshot-10112014-12833.png)
+![](screenshots/screenshot-10112014-12830.png)
 
 # Version Log: (Small changes omitted and bug fixes omitted)
 	Beta 1.3:

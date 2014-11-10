@@ -64,3 +64,17 @@ int asteroidNum() {
   return ret;
 }
 
+void screenShot() {
+  background(0);
+
+  pushMatrix(); // Matrix for the screen following
+  translate(-origin.x, -origin.y);
+  for (Particle p : effects)
+    p.render();
+  for (Object o : actors)
+    o.render();
+  popMatrix();
+
+  save("screenshots/screenshot-"+day()+month()+year()+"-"+hour()+minute()+second()+".png");
+}
+

@@ -53,9 +53,11 @@ void keyPressed() {
     else if (key == 'm' || key == 'M') {
       if (paused || dead)
         switchtoMenu();
-    } else if (key >= 49 && key <= 56) // Pressing 1-8 will change weapons
+    } else if (key >= 49 && key <= 56) { // Pressing 1-8 will change weapons
       if (arsenal[key-49] || debug) // Gives all weapons in debug mode
         mercury.type = key-49;
+    } else if ((key == 'o' || key == 'O') && !paused)
+      screenShot();
   }
 }
 
