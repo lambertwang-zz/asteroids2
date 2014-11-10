@@ -12,44 +12,44 @@
 
 
 ================================================================================================================================================
-Asteroids 2, 2014
-Version: Beta 1.3
-Author: Lambert Wang
-A processing project that occupied my spare time. 
+Asteroids 2, 2014  
+Version: Beta 1.3  
+Author: Lambert Wang  
+A processing project that occupied my spare time.   
 
 
 # Version Log: (Small changes omitted and bug fixes omitted)
- Beta 1.3:
-	Added Stats
-	You can now save and load settings and stats
-	Added repulsor asteroids
+	Beta 1.3:
+		Added Stats
+		You can now save and load settings and stats
+		Added repulsor asteroids
  
- Balance:
-	Reduced spawn rate of special asteroids
-	Reduced fire rate of chaos gun
-	Increased fire rate of triple, penta, beam gun, and railgun
+	Balance:
+		Reduced spawn rate of special asteroids
+		Reduced fire rate of chaos gun
+		Increased fire rate of triple, penta, beam gun, and railgun
  
- Beta 1.2:
-	Added bonus aseroids (Lasers now obtainable)
-	Implemented arsenal UI
-	Added CHAOSGUN and Splitter lasers
+	Beta 1.2:
+		Added bonus aseroids (Lasers now obtainable)
+		Implemented arsenal UI
+		Added CHAOSGUN and Splitter lasers
  
- Beta 1.1:
-	Added 5 unique lasers (6 unique, 8 total)
-	Added comments
-	Added Stats, settings, and exit button (currently only exit and play working)
-	New Lasers currently only accessible via debug controls
-	Added a instructions sidebar to the menu
-	Added settings
-	Added two asteroid types (Seekers, ragers)
+	Beta 1.1:
+		Added 5 unique lasers (6 unique, 8 total)
+		Added comments
+		Added Stats, settings, and exit button (currently only exit and play working)
+		New Lasers currently only accessible via debug controls
+		Added a instructions sidebar to the menu
+		Added settings
+		Added two asteroid types (Seekers, ragers)
  
- Beta 1.0:
-	Initial beta release
-	1 asteroid type
-	1 laser type
-	1 ship
-	1 menu button
-	Pause
+	Beta 1.0:
+		Initial beta release
+		1 asteroid type
+		1 laser type
+		1 ship
+		1 menu button
+		Pause
 
 
 #to do: 
