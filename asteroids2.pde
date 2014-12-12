@@ -33,7 +33,7 @@ String version = "Beta 1.3";
 
 void setup() {
   //size(768, 432);
-  size(int(SCALE*SWIDTH), int(SCALE*SHEIGHT));
+  size(int(SCALE*SWIDTH), int(SCALE*SHEIGHT), JAVA2D);
   smooth();
   colorMode(HSB);
   frameRate(60);

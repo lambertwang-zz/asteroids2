@@ -2,8 +2,8 @@
 
 // Static Global Variables
 // Number of cells 16x9
-final int FIELDX = 48;
-final int FIELDY = 27;
+final int FIELDX = 80;
+final int FIELDY = 45;
 // Size of cells in px
 int CELLSIZE;
 

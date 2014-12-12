@@ -11,8 +11,8 @@
 // SWIDTH and SHEIGHT should NEVER be changed.
 // To change screen size, change scale instead.
 // Screen size cannot be changed during sketch runtime.
-final float SWIDTH = 768;  // FIELDX*16
-final float SHEIGHT = 432; // FIELDY*16
+final float SWIDTH = 1280;  // FIELDX*16
+final float SHEIGHT = 720; // FIELDY*16
 final float SCALE = 1;
 /* 
  Scale calculations for effects are done within the constructors.
