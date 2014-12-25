@@ -16,6 +16,7 @@ Asteroids 2, 2014
 Version: Beta 1.3  
 Author: Lambert Wang  
 A processing project that occupied my spare time.   
+Requires [Processing](https://processing.org/) to run.
 
 # Screenshots
 ![](screenshots/screenshot-10112014-12833.png)
